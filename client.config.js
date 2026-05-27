@@ -33,7 +33,7 @@ export default {
   colores: {
     primario:   "#FFFFFF",
     secundario: "#F5F5F5",
-    acento:     "#111111",
+    acento:     "#F5F5F5",
     texto:      "#111111",
     textoSuave: "#666666",
     borde:      "#E0E0E0",
