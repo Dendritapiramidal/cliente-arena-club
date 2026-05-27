@@ -1,73 +1,48 @@
 export default {
-  nombre:      "Estudio Vega",
-  rubro:       "Diseño & Fotografía",
-  descripcion: "Diseño visual y fotografía para marcas que quieren destacar.",
-  logo:        "/logo.png",
-  favicon:     "/favicon.ico",
-
-  whatsapp:    "5491134149059",
-  email:       "hola@estudiovega.com",
-  instagram:   "estudiovega",
-  direccion:   "Buenos Aires, Argentina",
-
+  nombre:      "Arena Club",
+  rubro:       "Pilates",
+  descripcion: "Estudio de pilates",
+  logo:    "/logo.png",
+  favicon: "/favicon.ico",
+  whatsapp: "5491164381629", email: "contactoarenapilates@gmail.com",
+  instagram: "arenaclubpilates", direccion: "notengo",
   hero: {
-    titulo:    "Diseño que cuenta historias",
-    subtitulo: "Identidad visual, fotografía y dirección de arte para marcas con personalidad.",
-    cta:       "Ver portfolio",
+    titulo:    "Entrena de verdad",
+    subtitulo: "Esto es más que una clase de pilates...",
+    cta:       "Contactanos",
     imagen:    "/hero.jpg",
   },
-
-  servicios: [
-    { icono: "◈", titulo: "Identidad de marca",   descripcion: "Logo, paleta, tipografía y manual de marca completo." },
-    { icono: "◉", titulo: "Fotografía comercial",  descripcion: "Productos, gastronomía, arquitectura y retratos." },
-    { icono: "✦", titulo: "Diseño editorial",      descripcion: "Catálogos, libros, revistas y material impreso." },
-    { icono: "⬡", titulo: "Redes sociales",        descripcion: "Estrategia visual y contenido para Instagram y LinkedIn." },
+  servicios:   [
+    { icono: "✦", titulo: "Clase Pilates", descripcion: "Pack x 4 clases" },
   ],
-
   sobre: {
-    titulo:  "Sobre el estudio",
-    texto:   "Soy Valentina Vega, diseñadora y fotógrafa con más de 8 años de experiencia. Trabajo con marcas que valoran la estética, el detalle y la comunicación auténtica.",
-    imagen:  "/about.jpg",
+    titulo: "¿Quiénes somos?",
+    texto:  "Somos Fran y belu, unos cracks.",
+    imagen: "/about.jpg",
     stats: [
-      { num: "8+",  label: "Años de experiencia" },
-      { num: "120+", label: "Proyectos entregados" },
-      { num: "40+", label: "Clientes activos" },
+    { num: "2", label: "Años de experiencia" },
+    { num: "124", label: "Clientes satisfechos" },
     ],
   },
+  trabajos:    [
 
-  trabajos: [
-    { imagen: "/work1.jpg", titulo: "Marca — Café Alma",        categoria: "Identidad" },
-    { imagen: "/work2.jpg", titulo: "Foto — Editorial Verano",   categoria: "Fotografía" },
-    { imagen: "/work3.jpg", titulo: "Diseño — Catálogo 2024",    categoria: "Editorial" },
-    { imagen: "/work4.jpg", titulo: "Marca — Estudio Nómade",    categoria: "Identidad" },
-    { imagen: "/work5.jpg", titulo: "Foto — Producto Orgánico",  categoria: "Fotografía" },
-    { imagen: "/work6.jpg", titulo: "Redes — Marca Personal",    categoria: "Social" },
   ],
-
   testimonios: [
-    { nombre: "Sofía M.", texto: "Valentina capturó exactamente la esencia de nuestra marca. El trabajo fue impecable.", estrellas: 5 },
-    { nombre: "Andrés K.", texto: "Las fotos de producto transformaron nuestra tienda online. Las ventas subieron 40%.", estrellas: 5 },
-    { nombre: "Lucía P.", texto: "Puntual, profesional y con un ojo increíble para el detalle.", estrellas: 5 },
+    { nombre: "Andrea", texto: "Alta clase, la profe la mejor, re copada.", estrellas: 5 },
   ],
-
   colores: {
-    primario:   "#FAFAF8",
-    secundario: "#F0EDE8",
-    acento:     "#1A1A1A",
-    texto:      "#1A1A1A",
+    primario:   "#FFFFFF",
+    secundario: "#F5F5F5",
+    acento:     "#111111",
+    texto:      "#111111",
     textoSuave: "#666666",
-    borde:      "#E0DDD8",
+    borde:      "#E0E0E0",
   },
-
-  fuentes: {
-    display: "Cormorant Garamond",
-    body:    "DM Sans",
-  },
-
+  fuentes: { display: "Cormorant Garamond", body: "DM Sans" },
   seo: {
-    titulo:      "Estudio Vega | Diseño y Fotografía en Buenos Aires",
-    descripcion: "Diseño de identidad visual y fotografía comercial en Buenos Aires. Marcas con personalidad y estética.",
-    keywords:    "diseño gráfico buenos aires, fotografía comercial, identidad de marca, freelance diseño",
+    titulo:      "Arena Club",
+    descripcion: "Estudio de pilates",
+    keywords:    "",
     ogImagen:    "/og.jpg",
   },
 }
